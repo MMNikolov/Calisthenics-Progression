@@ -1,0 +1,98 @@
+{
+    "1da8e0b1-2d88-49f0-b5c6-5812d4600907": {
+        "name": "Push up",
+        "category": "Beginner",
+        "muscleGroup": "Chest & Triceps",
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/man-cross-training-in-a-gym-royalty-free-image-1701272927.jpg?resize=1200:*",
+        "summary": "ONE OF THE SIMPLEST, most common daily exercise habits guys use to add more activity into their days is to hop out of bed and crank out some press-ups every morning. This classic bodyweight move has probably been one of your fitness go-tos since, well, as long as you can remember. And rightfully so: The humble press-up — when performed correctly — is a quintessential upper-body exercise that activates multiple key muscle groups.",
+        "_id": "1da8e0b1-2d88-49f0-b5c6-5812d4600907"
+    },
+    "17b090aa-5e6d-413f-b49f-b6606ebf1255": {
+        "name": "Squats",
+        "category": "Beginner",
+        "muscleGroup": "Legs",
+        "imageUrl": "https://media.post.rvohealth.io/wp-content/uploads/2019/03/Female_Squat_Studio_732x549-thumbnail-2.jpg",
+        "summary": "A squat is a strength exercise in which the trainee lowers their hips from a standing position and then stands back up. During the descent, the hip and knee joints flex while the ankle joint dorsiflexes; conversely the hip and knee joints extend and the ankle joint plantarflexes when standing up.",
+        "_id": "17b090aa-5e6d-413f-b49f-b6606ebf1255"
+    },
+    "009d8b63-ec92-4ee3-b9d3-393eb63ec983": {
+        "name": "Leg raises",
+        "category": "Beginner",
+        "muscleGroup": "core & obliques",
+        "imageUrl": "https://i.ytimg.com/vi/Wp4BlxcFTkE/maxresdefault.jpg",
+        "summary": "The leg raise in lying position The leg raise is a strength training exercise which targets the iliopsoas",
+        "_id": "009d8b63-ec92-4ee3-b9d3-393eb63ec983"
+    },
+    "00c9ca32-c989-4565-b23b-c727ad358b22": {
+        "name": "Australian Rows",
+        "category": "Beginner",
+        "muscleGroup": "Back & Bicep",
+        "imageUrl": "https://heavyweightcali.com/wp-content/uploads/2022/08/IMG_5037-2-1024x586.jpeg.webp",
+        "summary": "Rows primarily target your back and biceps. If you can't do pull-ups yet, rows are ideal for building your pulling strength. This way, you gradually become accustomed to the pull up",
+        "_id": "00c9ca32-c989-4565-b23b-c727ad358b22"
+    },
+    "1e9574a5-2151-44c5-b5bc-1376e9f72779": {
+        "name": "Pull up",
+        "category": "Intermediate",
+        "muscleGroup": "Back & Bicep",
+        "imageUrl": "https://cdn.shopify.com/s/files/1/0705/5432/1194/files/mikolo-pull-ups-blog-2.png?v=1693468017",
+        "summary": "Pull ups work the lats, rhomboids, rear delts, biceps and forearms, as well as the core muscles. This is a great exercise for strengthening the muscles in the back, and it forms the basis of many advanced calisthenics exercises. If you're unable to perform multiple pull ups, assisted pull ups and negative pull ups are good regressions.",
+        "_id": "1e9574a5-2151-44c5-b5bc-1376e9f72779"
+    },
+    "080275fe-eef4-4869-96c7-7060b39c917c": {
+        "name": "Tricep Dip",
+        "category": "Intermediate",
+        "muscleGroup": "Tricep & Chest",
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/dips-1608221119.jpg",
+        "summary": "Tricep dips are a great alternative or addition to push ups for strengthening the chest, triceps, and shoulders. Negative dips and band assisted dips can help build the strength needed to perform unassisted dips.",
+        "_id": "080275fe-eef4-4869-96c7-7060b39c917c"
+    },
+    "0db39c46-0de5-495c-9362-4f8f64cb37bc": {
+        "name": "L sit",
+        "category": "Intermediate",
+        "muscleGroup": "Core & Legs",
+        "imageUrl": "https://barbend.com/wp-content/uploads/2018/01/BarBend-Feature-Image-1200-x-675-9.jpg",
+        "summary": "L sits work the shoulders, chest, triceps, core, quads and hip flexors, and are more challenging than they look. Regressions include L tucks, or alternating single leg L sits.",
+        "_id": "0db39c46-0de5-495c-9362-4f8f64cb37bc"
+    },
+    "251bf405-5891-4207-b5e5-790d3f6a3d4f": {
+        "name": "Assisted Handstand",
+        "category": "Intermediate",
+        "muscleGroup": "Core, Shoulders & Stability",
+        "imageUrl": "https://s3assets.skimble.com/assets/41808/skimble-workout-trainer-exercise-yoga-assisted-handstand-5_iphone.jpg",
+        "summary": "Place your hands on the floor, about shoulder width apart, and several inches away from a wall, bar, box or any other stable structure. Take a split stance with your legs. Actively push into the floor, arms straight and scapula elevated Kick your legs up against the wall, to enter the handstand position.",
+        "_id": "251bf405-5891-4207-b5e5-790d3f6a3d4f"
+    },
+    "0debdb8e-fdb4-4cca-bd4a-dce0990e1b2c": {
+        "name": "Handstand Push-Up",
+        "category": "Expert",
+        "muscleGroup": "Core, Shoulders & Stability",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Handstand_pushup.jpg/800px-Handstand_pushup.jpg",
+        "summary": "The handstand push-up also called the vertical push-up is a type of push-up exercise where the body is positioned in a handstand. For a true handstand, the exercise is performed free-standing, held in the air. To prepare the strength until one has built adequate balance, the feet are often placed against a wall, held by a partner, or secured in some other way from falling.",
+        "_id": "0debdb8e-fdb4-4cca-bd4a-dce0990e1b2c"
+    },
+    "bb92823a-8971-4e1f-b0f3-c0fea16df61e": {
+        "name": "Muscle Up",
+        "category": "Expert",
+        "muscleGroup": "Core, Back & Bicpes",
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/musclemain-1548177476.jpg?resize=2048:*",
+        "summary": "Muscle-ups require both pulling and pressing strength. Our fail-safe progressions will prepare your body for each element, so you’ll be ready to conquer the rig with a gymnast’s grace and power.",
+        "_id": "bb92823a-8971-4e1f-b0f3-c0fea16df61e"
+    },
+    "390b94d0-2cea-4ad9-a50c-999c18731775": {
+        "name": "Pistol Squat",
+        "category": "Expert",
+        "muscleGroup": "Legs & Stability",
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/pistol-squat-regular-pistol-squat-233-1654102650.jpg?crop=0.563xw:0.839xh;0.208xw,0.161xh&resize=1200:*",
+        "summary": "Pistol Squat. The pistol squat is a single-leg squat variation that tests your balance, strength, and flexibility.",
+        "_id": "390b94d0-2cea-4ad9-a50c-999c18731775"
+    },
+    "8f6fbe2a-823e-48aa-b758-08016090eda2": {
+        "name": "Human Flag",
+        "category": "Expert",
+        "muscleGroup": "Core & Shoulders",
+        "imageUrl": "https://onnitacademy.imgix.net/wp-content/uploads/2015/11/HumanFlag2.jpg",
+        "summary": "The human flag is a feat of strength where the body is parallel to the ground supported by a vertical bar. A straight line is formed using the arms and body. The trick requires the performer to have extensive upper body strength.",
+        "_id": "8f6fbe2a-823e-48aa-b758-08016090eda2"
+    }
+}
