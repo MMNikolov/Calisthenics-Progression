@@ -1,37 +1,66 @@
+import { useEffect, useState } from "react"
+import exerciseAPI from "../../api/exerciseAPI"
+import { useParams } from "react-router-dom"
+import commentsApi from "../../api/comments-api"
+
 export default function ExerciseDetails() {
+    const [exercise, setExercise] = useState({})
+    const [username, setUsername] = useState('')
+    const [comment, setComment] = useState('')
+    const {exerciseId} = useParams()
+
+    useEffect(() => {
+        (async () => {
+            const result = await exerciseAPI.getOneExercise(exerciseId)
+            setExercise(result)
+        })()
+    })
+    
+    const submitCommentHandler = async (e) => {
+
+        const newComment = await commentsApi.create(exerciseId, username, comment)
+
+        setExercise(prevState => ({
+            ...prevState,
+            comments: {
+                ...prevState.comments,
+                [newComment._id]: newComment
+            }
+        }))
+
+        setUsername('')
+        setComment('')
+    }
+
     return(
         <section id="game-details">
-            <h1>Game Details</h1>
+            <h1>Exercise Details</h1>
             <div className="info-section">
 
                 <div className="game-header">
-                    <img className="game-img" src="images/MineCraft.png" />
-                    <h1>Bright</h1>
-                    <span className="levels">MaxLevel: 4</span>
-                    <p className="type">Action, Crime, Fantasy</p>
+                    <img className="game-img" src={exercise.imageUrl} />
+                    <h1>{exercise.name}</h1>
+                    <span className="levels">Muscle Group: {exercise.muscleGroup}</span>
+                    <p className="type">{exercise.category}</p>
                 </div>
 
                 <p className="text">
-                    Set in a world where fantasy creatures live side by side with humans. A human cop is forced to work
-                    with an Orc to find a weapon everyone is prepared to kill for. Set in a world where fantasy
-                    creatures live side by side with humans. A human cop is forced
-                    to work with an Orc to find a weapon everyone is prepared to kill for.
+                    {exercise.summary}
                 </p>
 
                 
                 <div className="details-comments">
                     <h2>Comments:</h2>
-                    <ul>
-                        
-                        <li className="comment">
-                            <p>Content: I rate this one quite highly.</p>
-                        </li>
-                        <li className="comment">
-                            <p>Content: The best game.</p>
-                        </li>
-                    </ul>
-                    
-                    <p className="no-comment">No comments.</p>
+                    {Object.keys(exercise.comments || {}).length > 0
+                        ? Object.values(exercise.comments).map(comment => (
+                            <ul key={comment._id}>
+                                <li className="comment">
+                                    <p>{comment.username}: {comment.text}</p>
+                                </li>
+                            </ul>
+                        ))
+                        : <p className="no-comment">No comments.</p>
+                    }
                 </div>
 
                 
@@ -45,8 +74,11 @@ export default function ExerciseDetails() {
             
             <article className="create-comment">
                 <label>Add new comment:</label>
-                <form className="form">
-                    <textarea name="comment" placeholder="Comment......"></textarea>
+                <form className="form" onSubmit={submitCommentHandler}>
+                    <input type="text" placeholder="Pesho" name="username" 
+                onChange={(e) => setUsername(e.target.value)} value={username}/>
+                    <textarea name="comment" placeholder="Comment......"
+                onChange={(e) => setComment(e.target.value)} value={comment}></textarea>
                     <input className="btn submit" type="submit" value="Add Comment" />
                 </form>
             </article>

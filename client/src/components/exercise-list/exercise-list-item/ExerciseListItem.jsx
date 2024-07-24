@@ -12,7 +12,7 @@ export default function ExerciseListItem({
                     <img src={imageUrl} />
                     <h6>{category}</h6>
                     <h2>{name}</h2>
-                    <Link to={``} className="details-button">Details</Link>
+                    <Link to={`/exercises/${_id}/details`} className="details-button">Details</Link>
                 </div>
          </div>
     )

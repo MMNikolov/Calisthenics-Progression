@@ -6,6 +6,7 @@ import Home from "./components/home/Home.jsx"
 import Register from "./components/register/Register.jsx"
 import ExerciseCreate from "./components/exercise-create/ExerciseCreate.jsx"
 import ExerciseList from "./components/exercise-list/ExerciseList.jsx"
+import ExerciseDetails from "./components/exercise-details/ExerciseDetails.jsx"
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
               <Route path="/" element={<Home />}/>
               <Route path="/login" element={<Login />}/>
               <Route path="/register" element={<Register />}/>
-              <Route path="/exercises" element={<ExerciseList />}/>
+              <Route path="/exercises/" element={<ExerciseList />}/>
+              <Route path="/exercises/:exerciseId/details" element={<ExerciseDetails />}/>
+
               <Route path="/exercises/create" element={<ExerciseCreate />}/>
             </Routes>
         </main>

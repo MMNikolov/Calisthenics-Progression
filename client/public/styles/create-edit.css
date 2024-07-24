@@ -8,7 +8,7 @@
     box-sizing: border-box;
     text-align: center;
     background: #3e4443;
-    box-shadow: 0px 0px 32px 0px #32485e, -14px -14px 20px #191c21;
+    box-shadow: 0px 0px 32px 10px grey, -14px -14px 20px grey;
 }
 
 input[type="text"] {
@@ -34,5 +34,6 @@ textarea {
     border-right-color: #ecf0f3;
     margin-top: 7px;
     color: black;
-    box-shadow: inset 6px 6px 6px #c0c2c5, inset -6px -6px 6px white;
+    box-shadow: inset 6px 6px 6px white, inset -6px -6px 6px grey;
+    padding: 0.5em;
 }

@@ -9,3 +9,12 @@ export const getALL = async () => {
 
     return exercises
 }
+
+export const getOneExercise = (gameId) => request.get(`${BASE_URL}/${gameId}`)
+
+const exerciseAPI = {
+    getALL,
+    getOneExercise,
+}
+
+export default exerciseAPI
