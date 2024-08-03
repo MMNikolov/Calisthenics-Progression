@@ -20,7 +20,6 @@ function App() {
               <Route path="/register" element={<Register />}/>
               <Route path="/exercises/" element={<ExerciseList />}/>
               <Route path="/exercises/:exerciseId/details" element={<ExerciseDetails />}/>
-
               <Route path="/exercises/create" element={<ExerciseCreate />}/>
             </Routes>
         </main>
